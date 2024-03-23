@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Creating a program that converts Markdown files to html files
+"""
 import sys
 import os
 
