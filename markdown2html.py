@@ -10,6 +10,9 @@ import markdown
 
 
 def parse_markdown_headings(markdown_text):
+    """
+    Parses markdown headings
+    """
     html_content = ""
     new_lines = markdown_text.split("\n")
     for line in new_lines:
@@ -23,6 +26,9 @@ def parse_markdown_headings(markdown_text):
 
 
 def convert_markdown_to_html(input_file, output_file):
+    """
+    Does the conversion
+    """
     try:
         with open(input_file, 'r') as md_file:
             markdown_text = md_file.read()
