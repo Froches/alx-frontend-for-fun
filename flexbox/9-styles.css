@@ -372,7 +372,7 @@
 
   /* Section ABOUT US ============================= */
   
-  [class*='col-'] {
+  .section-about-us [class*='col-'] {
     align-self: center;
   }
   /*** 4. CARD ***/
