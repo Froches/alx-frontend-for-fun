@@ -1,0 +1,1 @@
+Accessibility project in alx-frontend-for-fun
