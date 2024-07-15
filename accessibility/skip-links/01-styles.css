@@ -195,7 +195,7 @@ a:active {
 }
 
 .off-screen {
-  left: -100ww;
+  left: -100vw;
   position: absolute;
 }
 
@@ -208,7 +208,7 @@ a:active {
   opacity: 0;
   top: 0;
   z-index: 10;
-  transform: translate(1rem);
+  transform: translate(-1rem);
   transition: transform .2s ease-in-out, opacity .2s ease-in-out;
 }
 
